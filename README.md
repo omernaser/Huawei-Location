@@ -1,5 +1,5 @@
-**Xamarin.Android.HMSLocation**
 ![enter image description here](https://raw.githubusercontent.com/omernaser/Huawei-MAP/master/huaweiicon.png)
+## Xamarin.Android.HMSLocation
 
 **Introduction**
 HUAWEI Location Kit combines the GPS, Wi-Fi, and base station locations to help you quickly obtain precise user locations, build up global positioning capabilities, and reach a wide range of users around the globe.Currently, it provides the four main capabilities: fused location, location semantics, activity identification, and geofence. You can call relevant capabilities as needed.
