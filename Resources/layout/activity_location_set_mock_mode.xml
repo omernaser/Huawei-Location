@@ -1,0 +1,75 @@
+<!--
+  ~ Copyright (c) Huawei Technologies Co., Ltd. 2019-2019. All rights reserved.
+  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        tools:context=".location.fusedlocation.SetMockModeActivity">
+
+        <TextView
+            android:text="@string/hwlocation_setMockMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:text="@string/hwlocation_mockWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/warning_red"
+            />
+
+        <Button
+            android:id="@+id/location_setMockMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_setMockMode" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_mockMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioGroup_mockMode_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="true" />
+
+            <RadioButton
+                android:id="@+id/radioGroup_mockMode_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="false" />
+        </RadioGroup>
+
+
+        <FrameLayout
+            android:id="@+id/framelog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"></FrameLayout>
+    </LinearLayout>
+</ScrollView>

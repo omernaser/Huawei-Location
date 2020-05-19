@@ -1,0 +1,59 @@
+<!--
+  ~ Copyright (c) Huawei Technologies Co., Ltd. 2019-2019. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".location.fusedlocation.RequestLocationUpdatesWithIntentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:text="@string/hwlocation_locationupdates" />
+
+            <Button
+                android:id="@+id/location_requestLocationUpdatesWithIntent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:text="@string/hwlocation_requestLocationUpdatesWithIntent" />
+
+            <Button
+                android:id="@+id/location_removeLocationUpdatesWithIntent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:text="@string/hwlocation_removeLocationUpdatesWithIntent" />
+
+            <FrameLayout
+                android:id="@+id/framelog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"></FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

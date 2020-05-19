@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        tools:context=".HuaweiLocationActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:text="@string/sample_hwlocation_description" />
+
+        <Button
+            android:id="@+id/location_requestLocationUpdatesWithIntent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_requestLocationUpdatesWithIntent" />
+
+        <Button
+            android:id="@+id/location_requestLocationUpdatesWithCallback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_requestLocationUpdatesWithCallback" />
+
+        <Button
+            android:id="@+id/location_setMockMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_setMockMode" />
+
+        <Button
+            android:id="@+id/location_setMockLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_setMockLocation" />
+
+        <Button
+            android:id="@+id/location_getLocationAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_getLocationAvailability" />
+
+        <Button
+            android:id="@+id/location_getLastLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_getLastLocation" />
+
+        <Button
+            android:id="@+id/location_activity_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_activity" />
+
+        <Button
+            android:id="@+id/location_activity_transition_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="@string/hwlocation_activity_transition" />
+
+        <Button
+            android:id="@+id/GeoFence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="GeoFence" />
+
+    </LinearLayout>
+</ScrollView>

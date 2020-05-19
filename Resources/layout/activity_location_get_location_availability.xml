@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".location.fusedlocation.GetLocationAvailabilityActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/hwlocation_getLocationAvailability" />
+
+
+    <Button
+        android:id="@+id/location_getLocationAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:text="@string/hwlocation_getLocationAvailability" />
+
+
+    <FrameLayout
+        android:id="@+id/framelog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"></FrameLayout>
+</LinearLayout>

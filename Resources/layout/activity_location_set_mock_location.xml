@@ -1,0 +1,52 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".location.fusedlocation.SetMockLocationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:text="@string/hwlocation_mockWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/warning_red"
+        />
+
+    <Button
+        android:id="@+id/location_setMockLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:text="@string/hwlocation_setMockLocation" 
+        />
+
+    <FrameLayout
+        android:id="@+id/framelog"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+</LinearLayout>
+</ScrollView>
