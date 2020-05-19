@@ -336,7 +336,4 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
-# BeatPulse healthcheck temp database
-healthchecksdb
-/XLocationDemoProjectRef.sln
-/XLocationDemoProjectRef.csproj
+
