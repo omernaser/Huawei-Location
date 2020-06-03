@@ -227,7 +227,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="10dp"
-        android:background="@color/upsdk_blue_text_007dff"
+        android:background="@color/emui_color_gray_7"
         android:layout_marginRight="20dp">
     </ProgressBar>
     </LinearLayout>
